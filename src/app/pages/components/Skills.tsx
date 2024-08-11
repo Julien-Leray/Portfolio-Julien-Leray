@@ -81,7 +81,7 @@ const Skills = () => {
 
       <div className="flex justify-center flex-wrap">
         <div>
-          <div className="text-2xl font-bold mb-8">
+          <div className="text-2xl font-bold my-8">
             <span>Front-End</span>
           </div>
           <div className="flex p-8 flex-wrap items-center justify-around" style={{ border: '4px solid #15616D', borderRadius: '5rem' }}>
@@ -100,7 +100,7 @@ const Skills = () => {
           <div className="text-2xl font-bold my-8">
             <span>Back-End</span>
           </div>
-          <div className="flex p-8 flex-wrap items-center justify-around" style={{ border: '4px solid #15616D', borderRadius: '5rem' }}>
+          <div className="flex p-8 flex-wrap items-center justify-around md:ml-4" style={{ border: '4px solid #15616D', borderRadius: '5rem' }}>
             {skillsBack.map((skill) => (
               <div key={skill.name} className="m-4 flex flex-col items-center justify-center text-center">
                 <img src={skill.src} alt={skill.name} className="w-14 h-14 md:w-32 md:h-32 object-contain" />
@@ -116,7 +116,7 @@ const Skills = () => {
           <div className="text-2xl font-bold my-8">
             <span>Languages</span>
           </div>
-          <div className="flex p-8 flex-wrap items-center justify-around" style={{ border: '4px solid #15616D', borderRadius: '5rem' }}>
+          <div className="flex p-8 flex-wrap items-center justify-around md:ml-4" style={{ border: '4px solid #15616D', borderRadius: '5rem' }}>
             {skillsLanguages.map((skill) => (
               <div key={skill.name} className="m-4 flex flex-col items-center justify-center text-center">
                 <img src={skill.src} alt={skill.name} className="w-14 h-14 md:w-32 md:h-32 object-containn" />
@@ -132,7 +132,7 @@ const Skills = () => {
           <div className="text-2xl font-bold my-8">
             <span>Tools</span>
           </div>
-          <div className="flex p-8 flex-wrap items-center justify-around" style={{ border: '4px solid #15616D', borderRadius: '5rem' }}>
+          <div className="flex p-8 flex-wrap items-center justify-around md:ml-4" style={{ border: '4px solid #15616D', borderRadius: '5rem' }}>
             {skillsTools.map((skill) => (
               <div key={skill.name} className="m-4 flex flex-col items-center justify-center text-center">
                 <img src={skill.src} alt={skill.name} className="w-14 h-14 md:w-32 md:h-32 object-contain" />
