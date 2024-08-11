@@ -10,7 +10,7 @@ const Presentation = () => {
           style={{ border: '4px solid #15616D', borderRadius: '6rem' }}
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-8 md:mb-12">
-            Hello, I'm Julien Leray
+            Hello, I&apos;m Julien Leray
           </h1>
           <p className="mt-8 md:mt-16 text-xl md:text-2xl mb-8">
             I am a passionate, results-oriented web developer known for my rigor,
