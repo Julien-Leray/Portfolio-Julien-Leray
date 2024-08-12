@@ -5,24 +5,14 @@ const projects = [
     link: "https://ojardin.galakindustries.eu/",
     image: "/projects/Ojardin.png"
   },
+
   {
-    title: "Wilsonport",
-    description: "A multi-page website for a logistics and transport company.",
-    link: "#",
-    image: "/images/wilsonport.png"
-  },
-  {
-    title: "Boreal Coffee Clone",
-    description: "Recreated the frontend of Boreal Coffee's official web app.",
-    link: "#",
-    image: "/images/boreal-coffee.png"
-  },
-  {
-    title: "Crown Template",
-    description: "A web template targeting the restaurant and food industry.",
-    link: "#",
-    image: "/images/crown-template.png"
+    title: "My Portfolio",
+    description: "The website you are currently on, builded with Next.js, React and TailwindCSS.",
+    link: "https://julien-leray.com/",
+    image: "/projects/Portfolio.png"
   }
+
 ];
 
 const Projects = () => {

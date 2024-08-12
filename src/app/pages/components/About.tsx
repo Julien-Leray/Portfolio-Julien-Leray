@@ -4,8 +4,8 @@ import Skills from "./Skills";
 const About = () => {
   return (
     <>
-      <div className="min-h-screen text-center flex flex-col p-4 md:flex-wrap md:pt-72 w-full">
-        <section id="about" className="mb-32 ">
+      <div className="min-h-screen text-center flex flex-col p-4 md:flex-wrap md:mt-44 w-full ">
+        <section id="about" className="mb-32 top-full ">
           <h2 className="text-4xl md:text-6xl font-bold mb-4">About Me</h2>
           <p className="text-lg md:text-2xl mb-4 mt-8 ">
             After an enriching one-year family trip across the American continent, I chose to
