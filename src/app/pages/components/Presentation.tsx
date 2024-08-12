@@ -2,9 +2,9 @@ const Presentation = () => {
   return (
     <section
       id="presentation"
-      className="min-h-screen flex flex-col items-center justify-center text-secondary p-4 md:p-8"
+      className="min-h-screen flex flex-col items-center justify-center text-secondary p-4 md:p-8 md:mt-28"
     >
-      <div className="flex flex-col md:flex-row items-center md:space-x-8 mb-16 md:mb-40 md:flex-wrap md:justify-center">
+      <div className="flex flex-col md:flex-row items-center md:space-x-8 mb-16 md:flex-wrap md:justify-center">
         <div
           className="text-center md:max-w-2xl p-8 md:p-16"
           style={{ border: '4px solid #15616D', borderRadius: '6rem' }}
@@ -27,32 +27,36 @@ const Presentation = () => {
             </a>
           </div>
         </div>
-        <div className="mt-8 md:mt-16 flex justify-center md:justify-start md:pl-36">
-          <img
-            src="/me.png"
-            alt="Picture of me"
-            className="w-64 md:w-80 lg:w-96"
-            style={{ border: '4px solid #15616D', borderRadius: '20rem' }}
-          />
+        <div>
+          <div className="mt-8 md:mt-16 flex justify-center md:justify-start md:pl-36">
+            <img
+              src="/me.png"
+              alt="Picture of me"
+              className="w-64 md:w-80 lg:w-96"
+              style={{ border: '4px solid #15616D', borderRadius: '20rem' }}
+            />
+          </div>
+          <div className="flex space-x-4 md:space-x-10 mt-8 md:mt-16 justify-center md:pl-36 ">
+            <a href="https://www.linkedin.com/in/leray-julien">
+              <img
+                src="linkedIn.png"
+                alt="Link to my LinkedIn Profile"
+                className="w-12 md:w-16 lg:w-20"
+              />
+            </a>
+            <a href="https://github.com/Julien-Leray">
+              <img
+                src="github-w.png"
+                alt="Link to my GitHub profile"
+                className="w-12 md:w-16 lg:w-20"
+              />
+            </a>
+          </div>
+
         </div>
       </div>
-      <div className="flex space-x-4 md:space-x-10 mt-8 md:mt-16">
-        <a href="https://www.linkedin.com/in/leray-julien">
-          <img
-            src="linkedIn.png"
-            alt="Link to my LinkedIn Profile"
-            className="w-12 md:w-16 lg:w-20"
-          />
-        </a>
-        <a href="https://github.com/lerayjulien">
-          <img
-            src="github.png"
-            alt="Link to my GitHub profile"
-            className="w-12 md:w-16 lg:w-20"
-          />
-        </a>
-      </div>
-      <button className="mt-16 md:mt-40 animate-bounce">
+
+      <button className="animate-bounce">
         <a href="#about">
           <img
             src="https://assets-global.website-files.com/615b66ec9bfbd548ea22bcf0/615cbb83b2113ff1a45b36c7_svgexport-3.svg"

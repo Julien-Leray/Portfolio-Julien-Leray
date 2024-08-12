@@ -31,9 +31,25 @@ const Navbar = () => {
           >
             My resume
           </a>
-
         </div>
 
+        {/* Desktop Links */}
+        <div className="hidden md:flex space-x-12">
+          <Link href="/#presentation" className="text-lg md:text-2xl">
+            Home
+          </Link>
+          <Link href="/#about" className="text-lg md:text-2xl">
+            About
+          </Link>
+          <Link href="/#projects" className="text-lg md:text-2xl">
+            Projects
+          </Link>
+          <Link href="/#contact" className="text-lg md:text-2xl">
+            Contact
+          </Link>
+        </div>
+
+        {/* Burger menu button visible only on mobile */}
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
@@ -55,38 +71,54 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
+      </div>
 
-        <div className={`md:flex md:items-center ${isOpen ? 'block' : 'hidden'} w-full md:w-auto`}>
-          <div className="flex flex-col md:flex-row md:items-center md:space-x-12">
-            <Link
-              href="/#presentation"
-              onClick={(e) => handleScroll(e, '#presentation')}
-              className="block mt-4 md:mt-0 text-3xl"
-            >
-              Home
-            </Link>
-            <Link
-              href="/#about"
-              onClick={(e) => handleScroll(e, '#about')}
-              className="block mt-4 md:mt-0 text-3xl"
-            >
-              About
-            </Link>
-            <Link
-              href="/#projects"
-              onClick={(e) => handleScroll(e, '#projects')}
-              className="block mt-4 md:mt-0 text-3xl"
-            >
-              Projects
-            </Link>
-            <Link
-              href="/#contact"
-              onClick={(e) => handleScroll(e, '#contact')}
-              className="block mt-4 md:mt-0 text-3xl"
-            >
-              Contact
-            </Link>
-          </div>
+      {/* Mobile Menu - only displayed on mobile screens */}
+      <div
+        className={`${isOpen ? 'block' : 'hidden'
+          } md:hidden absolute top-full left-0 w-full bg-black text-secondary`}
+      >
+        <div className="flex flex-col items-center justify-center py-8 space-y-4">
+          <Link
+            href="/#presentation"
+            onClick={(e) => {
+              toggleMenu();
+              handleScroll(e, '#presentation');
+            }}
+            className="block text-3xl"
+          >
+            Home
+          </Link>
+          <Link
+            href="/#about"
+            onClick={(e) => {
+              toggleMenu();
+              handleScroll(e, '#about');
+            }}
+            className="block text-3xl"
+          >
+            About
+          </Link>
+          <Link
+            href="/#projects"
+            onClick={(e) => {
+              toggleMenu();
+              handleScroll(e, '#projects');
+            }}
+            className="block text-3xl"
+          >
+            Projects
+          </Link>
+          <Link
+            href="/#contact"
+            onClick={(e) => {
+              toggleMenu();
+              handleScroll(e, '#contact');
+            }}
+            className="block text-3xl"
+          >
+            Contact
+          </Link>
         </div>
       </div>
     </nav>
