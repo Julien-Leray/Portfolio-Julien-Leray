@@ -57,7 +57,7 @@ const Contact = () => {
             type="text"
             name="user_name"
             placeholder="Name"
-            className="w-full p-4 border border-gray-300 rounded-3xl text-primary text-xl"
+            className="w-full p-4 border border-gray-300 rounded-3xl text-secondary text-xl"
             required
           />
         </div>
@@ -66,7 +66,7 @@ const Contact = () => {
             type="email"
             name="user_email"
             placeholder="Email"
-            className="w-full p-4 border border-gray-300 rounded-3xl text-primary text-xl"
+            className="w-full p-4 border border-gray-300 rounded-3xl text-secondary text-xl"
             required
           />
         </div>
@@ -74,13 +74,13 @@ const Contact = () => {
           <textarea
             name="message"
             placeholder="Message"
-            className="w-full p-4 border border-gray-300 rounded-3xl h-60 text-primary text-xl"
+            className="w-full p-4 border border-gray-300 rounded-3xl h-60 text-secondary text-xl"
             required
           ></textarea>
         </div>
         <button
           type="submit"
-          className="text-lg md:text-2xl bg-gray-800 hover:bg-gray-500 text-white font-bold py-4 px-8 rounded-full"
+          className="text-lg md:text-2xl bg-gradient-to-br from-primary to-secondary hover:bg-gradient-to-bl text-white font-bold py-4 px-8 rounded-full"
         >
           Send me
         </button>

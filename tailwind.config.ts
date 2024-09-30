@@ -12,9 +12,9 @@ const config: Config = {
         'site-background': 'linear-gradient(45deg, #15616D, #161719)',
       },
       colors: {
-        primary: "#15616D",
-        secondary: "#FFF2DF",
-        tertiary: "#F9F9F9",
+        primary: "#E3ECF1",
+        secondary: "#578289",
+        tertiary: "#8CAAB0",
         quaternary: "#161719",
       },
       opacity: {

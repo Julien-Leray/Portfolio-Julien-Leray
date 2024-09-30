@@ -1,12 +1,11 @@
 import Head from 'next/head';
-import { Inter } from 'next/font/google';
 import Presentation from './pages/components/Presentation';
 import About from './pages/components/About';
 import Projects from './pages/components/Projects';
 import Contact from './pages/components/Contact';
 import Navbar from './pages/components/NavBar';
 
-const inter = Inter({ subsets: ['latin'] });
+
 
 export default function Home() {
   return (
@@ -22,7 +21,7 @@ export default function Home() {
           <Navbar />
         </section>
       </div>
-      <div className=" bg-site-background text-secondary snap-y snap-mandatory overflow-y-scroll lg:h-screen">
+      <div className=" bg-secondary text-primary snap-y snap-mandatory overflow-y-scroll lg:h-screen">
         <section id="presentation" className="snap-start min-h-screen flex items-center justify-center p-4">
           <Presentation />
         </section>
