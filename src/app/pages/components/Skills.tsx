@@ -77,14 +77,14 @@ const Skills = () => {
 
 
   return (
-    <section id="skills" className="text-center mb-20 w-full">
+    <section id="skills" className="text-center mb-20 w-full text-secondary">
 
       <div className="flex justify-center flex-wrap">
         <div>
-          <div className="text-2xl font-bold my-8">
+          <div className="text-2xl font-bold my-8 text-primary">
             <span>Front-End</span>
           </div>
-          <div className="flex p-8 flex-wrap items-center justify-around" style={{ border: '4px solid #15616D', borderRadius: '5rem' }}>
+          <div className="flex p-8 flex-wrap items-center justify-around bg-gradient-to-br from-primary to-secondary rounded-[50px]">
             {skillsFront.map((skill) => (
               <div key={skill.name} className="m-4 flex flex-col items-center justify-center text-center">
                 <img src={skill.src} alt={skill.name} className="w-14 h-14 md:w-32 md:h-32 object-contain" />
@@ -97,10 +97,10 @@ const Skills = () => {
         </div>
 
         <div>
-          <div className="text-2xl font-bold my-8">
+          <div className="text-2xl font-bold my-8 text-primary">
             <span>Back-End</span>
           </div>
-          <div className="flex p-8 flex-wrap items-center justify-around md:ml-4" style={{ border: '4px solid #15616D', borderRadius: '5rem' }}>
+          <div className="flex p-8 flex-wrap items-center justify-around md:ml-4  bg-gradient-to-bl from-primary to-secondary rounded-[50px]">
             {skillsBack.map((skill) => (
               <div key={skill.name} className="m-4 flex flex-col items-center justify-center text-center">
                 <img src={skill.src} alt={skill.name} className="w-14 h-14 md:w-32 md:h-32 object-contain" />
@@ -113,10 +113,10 @@ const Skills = () => {
         </div>
 
         <div>
-          <div className="text-2xl font-bold my-8">
+          <div className="text-2xl font-bold my-8 text-primary">
             <span>Languages</span>
           </div>
-          <div className="flex p-8 flex-wrap items-center justify-around md:ml-4" style={{ border: '4px solid #15616D', borderRadius: '5rem' }}>
+          <div className="flex p-8 flex-wrap items-center justify-around md:ml-4  bg-gradient-to-br from-primary to-secondary rounded-[50px]">
             {skillsLanguages.map((skill) => (
               <div key={skill.name} className="m-4 flex flex-col items-center justify-center text-center">
                 <img src={skill.src} alt={skill.name} className="w-14 h-14 md:w-32 md:h-32 object-containn" />
@@ -129,10 +129,10 @@ const Skills = () => {
         </div>
 
         <div>
-          <div className="text-2xl font-bold my-8">
+          <div className="text-2xl font-bold my-8 text-primary">
             <span>Tools</span>
           </div>
-          <div className="flex p-8 flex-wrap items-center justify-around md:ml-4" style={{ border: '4px solid #15616D', borderRadius: '5rem' }}>
+          <div className="flex p-8 flex-wrap items-center justify-around md:ml-4  bg-gradient-to-bl from-primary to-secondary rounded-[50px]">
             {skillsTools.map((skill) => (
               <div key={skill.name} className="m-4 flex flex-col items-center justify-center text-center">
                 <img src={skill.src} alt={skill.name} className="w-14 h-14 md:w-32 md:h-32 object-contain" />
