@@ -30,7 +30,7 @@ const Presentation = () => {
         <div>
           <div className="mt-8 md:mt-16 flex justify-center md:justify-start md:pl-36">
             <img
-              src="/moi.png"
+              src="/Moi.png"
               alt="Picture of me"
               className="w-32 md:w-48 lg:w-48"
 
