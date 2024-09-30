@@ -19,15 +19,16 @@ const Navbar = () => {
 
   return (
     <nav
-      className="p-4 fixed top-0 left-0 w-full z-50 text-secondary bg-opacity-50 bg-site-background h-32 py-8"
-      style={{ borderBottom: '4px solid #15616D' }}
+      className="p-4 fixed top-0 left-0 w-full z-50 text-primary bg-gradient-to-br from-primary to-secondary h-32 py-8"
+      style={{ borderBottom: '4px solid #E3ECF1' }}
     >
       <div className="flex justify-between items-center ml-12 mr-12">
         <div className="text-5xl font-bold ml-2 text-secondary">
+
           <a
-            href="/Julien-Leray_Resume.pdf"
+            href="/Leray-Julien.pdf"
             download
-            className="text-lg md:text-2xl bg-gray-800 hover:bg-gray-500 text-white font-bold py-4 px-8 rounded-full"
+            className="text-lg md:text-2xl hover:text-tertiary text-primary font-bold "
           >
             My resume
           </a>
@@ -53,7 +54,7 @@ const Navbar = () => {
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
-            className="text-secondary focus:outline-none"
+            className="text-primary focus:outline-none"
           >
             <svg
               className="w-8 h-8"
@@ -76,7 +77,7 @@ const Navbar = () => {
       {/* Mobile Menu - only displayed on mobile screens */}
       <div
         className={`${isOpen ? 'block' : 'hidden'
-          } md:hidden absolute top-full left-0 w-full bg-black text-secondary`}
+          } md:hidden absolute top-full left-0 w-full bg-primary text-secondary`}
       >
         <div className="flex flex-col items-center justify-center py-8 space-y-4">
           <Link

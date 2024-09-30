@@ -2,7 +2,7 @@ const projects = [
   {
     title: "O'Jardin",
     description: "A web app for gardenners to learn about plants and make a virtual garden.",
-    link: "https://ojardin.galakindustries.eu/",
+    link: "https://ojardin.julien-leray.com/",
     image: "/projects/Ojardin.png"
   },
 
@@ -26,7 +26,7 @@ const Projects = () => {
             <div className="p-4">
               <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
               <p className="text-lg mb-4">{project.description}</p>
-              <a href={project.link} className="text-xl md:text-lg bg-gray-800 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded-full">View Project</a>
+              <a href={project.link} className="text-xl md:text-lg bg-gradient-to-br from-primary to-secondary hover:bg-gradient-to-bl text-white font-bold py-2 px-4 rounded-full">View Project</a>
             </div>
           </div>
         ))}
