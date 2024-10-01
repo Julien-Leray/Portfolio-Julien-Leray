@@ -25,7 +25,7 @@ const Presentation = () => {
             >
               Learn more
             </a>
-          </div>
+            {/*</div>
         </div>
         <div>
           <div className="mt-8 md:mt-16 flex justify-center md:justify-start md:pl-36">
@@ -34,7 +34,7 @@ const Presentation = () => {
               alt="Picture of me"
               className="w-32 md:w-48 lg:w-48"
 
-            />
+            />*/}
           </div>
           <div className="flex space-x-4 md:space-x-10 mt-8 md:mt-16 justify-center md:pl-36 cursor-pointer">
             <a href="https://www.linkedin.com/in/leray-julien">
