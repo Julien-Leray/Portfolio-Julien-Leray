@@ -84,12 +84,12 @@ const Skills = () => {
           <div className="text-2xl font-bold my-8 text-primary">
             <span>Front-End</span>
           </div>
-          <div className="flex p-8 flex-wrap items-center justify-around bg-gradient-to-br from-primary to-secondary rounded-[50px]">
+          <div className="flex p-8 flex-wrap items-center justify-around bg-quaternary text-primary border-2 border-teal-600 rounded-[30px]">
             {skillsFront.map((skill) => (
               <div key={skill.name} className="m-4 flex flex-col items-center justify-center text-center">
-                <img src={skill.src} alt={skill.name} className="w-14 h-14 md:w-32 md:h-32 object-contain" />
+                <img src={skill.src} alt={skill.name} className="w-14 h-14 md:w-32 md:h-32 object-contain " />
                 <div className="p-4">
-                  <h3 className="md:text-2xl font-bold mb-2">{skill.name}</h3>
+                  <h3 className="md:text-2xl font-bold mb-2 ">{skill.name}</h3>
                 </div>
               </div>
             ))}
@@ -100,7 +100,7 @@ const Skills = () => {
           <div className="text-2xl font-bold my-8 text-primary">
             <span>Back-End</span>
           </div>
-          <div className="flex p-8 flex-wrap items-center justify-around md:ml-4  bg-gradient-to-bl from-primary to-secondary rounded-[50px]">
+          <div className="flex p-8 flex-wrap items-center justify-around md:ml-4  bg-quaternary text-primary border-2 border-teal-600 rounded-[30px]">
             {skillsBack.map((skill) => (
               <div key={skill.name} className="m-4 flex flex-col items-center justify-center text-center">
                 <img src={skill.src} alt={skill.name} className="w-14 h-14 md:w-32 md:h-32 object-contain" />
@@ -116,7 +116,7 @@ const Skills = () => {
           <div className="text-2xl font-bold my-8 text-primary">
             <span>Languages</span>
           </div>
-          <div className="flex p-8 flex-wrap items-center justify-around md:ml-4  bg-gradient-to-br from-primary to-secondary rounded-[50px]">
+          <div className="flex p-8 flex-wrap items-center justify-around md:ml-4  bg-quaternary text-primary border-2 border-teal-600 rounded-[30px]">
             {skillsLanguages.map((skill) => (
               <div key={skill.name} className="m-4 flex flex-col items-center justify-center text-center">
                 <img src={skill.src} alt={skill.name} className="w-14 h-14 md:w-32 md:h-32 object-containn" />
@@ -132,7 +132,7 @@ const Skills = () => {
           <div className="text-2xl font-bold my-8 text-primary">
             <span>Tools</span>
           </div>
-          <div className="flex p-8 flex-wrap items-center justify-around md:ml-4  bg-gradient-to-bl from-primary to-secondary rounded-[50px]">
+          <div className="flex p-8 flex-wrap items-center justify-around md:ml-4  bg-quaternary text-primary border-2 border-teal-600 rounded-[30px]">
             {skillsTools.map((skill) => (
               <div key={skill.name} className="m-4 flex flex-col items-center justify-center text-center">
                 <img src={skill.src} alt={skill.name} className="w-14 h-14 md:w-32 md:h-32 object-contain" />
