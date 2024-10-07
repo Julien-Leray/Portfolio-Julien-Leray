@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Nanum_Gothic } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
-const nanum = Nanum_Gothic({ subsets: ['latin'], weight: '400' });
+const nanum = Poppins({ subsets: ['latin'], weight: '400' });
 
 export const metadata: Metadata = {
   title: "Julien Leray's Portfolio",
